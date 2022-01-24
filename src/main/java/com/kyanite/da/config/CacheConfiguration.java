@@ -48,6 +48,7 @@ public class CacheConfiguration {
             createCache(cm, com.kyanite.da.domain.User.class.getName());
             createCache(cm, com.kyanite.da.domain.Authority.class.getName());
             createCache(cm, com.kyanite.da.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.kyanite.da.domain.Application.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
