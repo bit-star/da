@@ -1,0 +1,11 @@
+
+
+
+entity Application {
+	name String
+    url Instant
+}
+
+
+
+
